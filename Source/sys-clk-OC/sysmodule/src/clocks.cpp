@@ -55,7 +55,7 @@ void Clocks::UpdateFreqRange() {
     uint32_t GPU_SAFE_MAX[SysClkProfile_EnumMax];
     if (isMariko) {
         for (auto &m : GPU_SAFE_MAX) {
-            m = 998'400'000;
+            m = 1267'200'000;
         }
     } else {
         GPU_SAFE_MAX[SysClkProfile_Handheld] = \
